@@ -125,11 +125,11 @@ h3{
 }
 
 .five{
-    flex-basis:39.9%;
-    width: 39.3%;
+    flex-basis:39%;
+    width: 39%;
 }
 
 .seven{
-    flex-basis: 56.6%;
-    width: 56.6%;
+    flex-basis: 60%;
+    width: 60%;
 }

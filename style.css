@@ -9,9 +9,10 @@ body{
 .navbar{
     top: 0;
     width: 100%;
-    z-index: 10;  /* overlap*/
+    z-index: 90;  /* overlap*/
     position: fixed;
     box-shadow: 2px 1px 2px #eee; /* x-lenght y-length blur*/
+    background-color: #fff;
 }
 
 .container{
@@ -60,6 +61,7 @@ a{
     text-decoration: none;
     color: #666;
     padding: 20px;
+    background-color: #fff;
 }
 
 .text-center{
@@ -82,10 +84,52 @@ p{
     margin-bottom: 15px;
     font-weight: 500;
     line-height: 1.8;
+    font-size:1rem
 }
 
 button{
     background-color: #3273a8;
     padding: 10px 25px 10px 25px;
     color: white;
+}
+
+.ecosystem{
+    margin-top: 30px;
+}
+
+.row-between{
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing:border-box;
+    align-items:center;
+}
+
+.columns{
+    box-sizing: border-box;
+    flex: 0 1 auto;
+}
+
+h2{
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+h3{
+    line-height: 1.6;
+    margin-top: 8px;
+}
+
+.ecosystem-image{
+    max-width: 100%;
+    width: auto;
+}
+
+.five{
+    flex-basis:39.9%;
+    width: 39.3%;
+}
+
+.seven{
+    flex-basis: 56.6%;
+    width: 56.6%;
 }
